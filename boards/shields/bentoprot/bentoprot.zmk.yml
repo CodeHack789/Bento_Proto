@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: bentoprot
+name: bentoprot
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - bentoprot_left
+  - bentoprot_right

@@ -1,0 +1,4 @@
+config SHIELD_BENTOPROT_LEFT
+    def_bool $(shields_list_contains,bentoprot_left)
+config SHIELD_BENTOPROT_RIGHT
+    def_bool $(shields_list_contains,bentoprot_right)
