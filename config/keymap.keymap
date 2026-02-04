@@ -1,4 +1,3 @@
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -7,42 +6,42 @@
         compatible = "zmk,keymap";
 
         layer_0 {
-            bindings =<
-                &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
+            bindings = <
+&kp NUMBER_1      &kp LC(NUMBER_2)  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9   &kp NUMBER_0  &kp MINUS             &kp EQUAL
+&kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T         &kp Y         &kp U           &kp I          &kp O         &kp P                 &kp BACKSPACE
+&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G         &kp H         &kp J           &kp K          &kp L         &kp SLASH             &kp RETURN
+&kp LEFT_SHIFT    &kp Z             &kp X         &kp C             &kp V             &kp B         &kp N         &kp M           &kp COMMA      &kp PERIOD    &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp ESCAPE        &mo 1             &kp LEFT_ALT  &kp LEFT_COMMAND  &kp INT_MUHENKAN  &kp SPACE     &kp SPACE     &kp INT_HENKAN  &kp SEMICOLON  &kp SQT       &kp NON_US_BACKSLASH  &kp GRAVE
             >;
         };
 
         layer_1 {
-            bindings =<
-                &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
+            bindings = <
+&kp F1  &kp F2  &kp F3           &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9          &kp F10         &kp F11          &kp F12
+&none   &none   &none            &none   &none   &none   &none   &none   &none           &none           &none            &kp DELETE
+&none   &none   &kp PRINTSCREEN  &none   &none   &none   &none   &none   &none           &none           &none            &none
+&none   &none   &none            &none   &none   &none   &none   &none   &none           &kp UP_ARROW    &none            &none
+&none   &none   &none            &none   &none   &none   &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
             >;
         };
 
         layer_2 {
-            bindings =<
-                &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         layer_3 {
-            bindings =<
-                &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
