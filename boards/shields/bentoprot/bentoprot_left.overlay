@@ -58,10 +58,9 @@
              * 左トラックボールを「スクロール専用」にする:
              * 1) 向き補正（90°回転相当）: XY_SWAP + Y_INVERT
              * 2) XY移動 → スクロールへ変換
-             * 3) スクロール速度の倍率調整（ここは好みで調整）
+             * 3) スクロール速度の倍率調整
              */
             input-processors = <
-                &zip_temp_layer 2 200
                 &zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_scaler 1 5
